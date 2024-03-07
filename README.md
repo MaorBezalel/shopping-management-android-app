@@ -1,0 +1,1 @@
+# shopping-management-android-app
