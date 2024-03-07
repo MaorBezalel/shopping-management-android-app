@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".activities.AuthActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/topBannerFragment"
+        android:name="com.hit.shoppingmanagementapp.fragments.TopBannerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        tools:layout="@layout/fragment_top_banner" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/authTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:tabIndicatorColor="@color/secondary"
+        app:tabIndicatorHeight="3dp"
+        app:tabSelectedTextColor="@color/secondary"
+        app:tabTextColor="@color/textLight">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/loginTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/signupTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/authViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098542357824",
+    "project_id": "fir-authexercisehit",
+    "storage_bucket": "fir-authexercisehit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098542357824:android:cae8dcac762f57b7d92ea5",
+        "android_client_info": {
+          "package_name": "com.hit.firebaseauthexercise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzxBzFZyADMW5mmO4JS24DKjQVICnu5X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098542357824:android:329c0eb865d5151dd92ea5",
+        "android_client_info": {
+          "package_name": "com.hit.shoppingmanagementapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzxBzFZyADMW5mmO4JS24DKjQVICnu5X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
